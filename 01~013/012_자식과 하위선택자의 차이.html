@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <style>
+        /*부모선택자 -> 바로 밑 자식만 칠하기*/
+        ul>li{
+            color:red;
+        }
+        ul li{ /*하위선택자 -> 하위선택자 모두 칠하기*/ 
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <ul>
+            <li>사과</li>
+            <li>딸기</li>
+            <li class="orange">오렌지</li>
+
+            <ol>
+                <li>임시</li>
+                <li>임시</li>
+                <li>임시</li>
+
+            </ol>
+
+        </ul>
+        <div>당근</div>
+        <p>토마토</p>
+        <span class="orange">오렌지</span>
+
+    </div>
+    <br><br><br><br>
+    <span class="orange">오렌지</span>
+
+</body>
+
+</html>
